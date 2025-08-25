@@ -1,0 +1,23 @@
+RAG/
+├─ data/                   # Your 8 original JSONs
+│   ├─ cpc.json
+│   ├─ crpc.json
+│   ├─ hma.json
+│   ├─ ida.json
+│   ├─ iea.json
+│   ├─ ipc.json
+│   ├─ mva.json
+│   └─ nia.json
+├─ qa/                     # Your 3 Q/A JSONs
+│   ├─ constitution.json
+│   ├─ crpc_qa.json
+│   └─ ipc_qa.json
+├─ law_index_faiss/        # FAISS index files
+│   ├─ faiss_index.bin
+│   └─ metadata.json
+├─ scripts/
+│   ├─ build_index.py
+│   └─ query_law.py
+├─ app.py                  # Streamlit interface (your provided code)
+├─ requirements.txt        # Dependencies
+└─ README.md               # Optional project info
